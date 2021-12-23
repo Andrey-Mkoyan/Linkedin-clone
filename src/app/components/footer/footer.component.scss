@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  width: 1440px;
+  height: 80px;
+
+  .main-logo {
+    display: flex;
+    cursor: pointer;
+    width: 130px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 13px;
+
+
+    .logo {
+      width: 46px;
+      height: 46px;
+      margin: 17px 42px;
+    }
+
+    .horizontal-line {
+      height: 80px;
+      border-right: 1px solid rgba(000, 000, 000, 0.1);
+    }
+
+  }
+}
